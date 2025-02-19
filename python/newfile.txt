@@ -1,0 +1,5 @@
+"""ndividual coin ownership records are stored
+ in a digital ledger, which is a
+ computerized database using strong cryptography
+  
+ 

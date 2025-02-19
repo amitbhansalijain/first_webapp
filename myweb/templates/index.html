@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i am coming from htnl</title>
+</head>
+<body>
+<h1> i am coming from html</h1>
+{{key1}}
+<a href="{% url 'result' %}">CLICK HERE FOR RESULT</a>
+
+<form action="{% url 'result' %}">
+    <br></br>
+
+
+    {% csrf_token %}
+    
+    <textarea cols="60" rows="10"  name="article"></textarea>
+    <br></br>
+    <input type="submit" name="submit">
+    <br></br> 
+     
+
+    
+</body>
+</html> 
+ 
+
+
