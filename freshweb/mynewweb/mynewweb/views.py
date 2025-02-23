@@ -5,7 +5,7 @@ import operator
 
 def home(request):
 
-    return render(request,'index.html',{'key1':'i am coming from python code'})
+    return render(request,'index.html',{'key1':'i am coming from to python code'})
 
 
 def result(request):
